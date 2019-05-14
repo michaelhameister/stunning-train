@@ -1,0 +1,134 @@
+/* You may set the width and height of container/section elements in percentages.
+DO NOT USE PERCENTAGES IN TEXTS AND IMAGES : No responsiveness  */
+@font-face {
+	font-family: dinalt;
+	src: url(../fonts/dinaltbold.ttf);
+}
+
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background: white;
+}
+
+p {
+	font-family: dinalt;
+	font-size: 1.9em;
+	justify: left;
+}
+
+.queeries {
+	position: relative;
+	left: 450px;
+}
+
+.comingout {
+	position: relative;
+	top: 105px;
+	left: 300px;
+}
+
+.btnsex {
+    border: 5px solid red;
+		border-width: 5px;
+    border-color: #ff4339;
+    padding: 8px 28px;
+    font-size: 15px;
+		font-family: dinalt;
+    cursor: pointer;
+		width: 200px;
+    display: inline-block;
+		position: relative;
+		top: -70px;
+		left: 10px;
+}
+
+.btnhome {
+    border: 5px solid red;
+		border-width: 5px;
+    border-color: #005abb;
+    padding: 8px 28px;
+    font-size: 15px;
+		font-family: dinalt;
+    cursor: pointer;
+		width: 200px;
+    display: inline-block;
+		position: relative;
+		top: -70px;
+}
+
+.mouth {
+	position: absolute;
+	top: 360px;
+	left: -5px;
+}
+
+.hand {
+	position: absolute;
+	top: 1500px;
+	left: -5px;
+}
+
+.eye {
+	position: absolute;
+	top: 2670px;
+	left: -10px;
+}
+.line {
+	position: absolute;
+	top: 1080px;
+	left: -450px;
+}
+.line2 {
+	position: absolute;
+	top: 2230px;
+	left: -450px;
+}
+.line3 {
+	position: absolute;
+	top: 3380px;
+	left: -340px;
+}
+#left {
+	position: absolute;
+	text-align: justify-left;
+	left: 300px;
+	right: 300px;
+	top: 270px;
+	color: black;
+}
+
+#right {
+	position: absolute;
+	right: 400px;
+	left: 400px;
+	top: 1100px;
+	color: black;
+	border: 5px;
+	border-color: pink;
+	font-size: 1.3em;
+}
+
+#third {
+	position: absolute;
+	right: 400px;
+	left: 400px;
+	top: 2250px;
+	color: black;
+	border: 5px;
+	border-color: pink;
+	font-size: 1.3em;
+}
+#fourth {
+	position: absolute;
+	right: 400px;
+	left: 400px;
+	top: 3400px;
+	color: black;
+	border: 5px;
+	border-color: pink;
+	font-size: 1.3em;
+}
